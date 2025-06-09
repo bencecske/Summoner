@@ -3,7 +3,7 @@ const fetch = require("node-fetch"); // node-fetch@2 legyen
 const app = express();
 const PORT = 3000;
 
-const RIOT_API_KEY = "RGAPI-3fd21f27-a530-4034-a666-bc7127a338c1"; // friss kulcs legyen
+const RIOT_API_KEY = ""; // friss kulcs legyen
 
 app.use(express.static("public"));
 
